@@ -42,3 +42,22 @@ iframe#tela{
     width: 269px;
     height: 471px;
 }
+
+section#redes-sociais {
+    text-align: right; /* deixa as imagens do lado direito da tela */
+}
+
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);
+    box-sizing: border-box; /* assim deixa a bordar dentro da caixa */
+}
+
+section#redes-sociais img:hover{
+    border: 2px solid rgb(255, 255, 255);
+    transform: translate(-3px, -3px);/*  quando passa o cursor em cima ele da uma levantadinha */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616); /* quando ele levanta fica uma sombra embaixo */
+    transition: transform .3s, border 1s;
+}
